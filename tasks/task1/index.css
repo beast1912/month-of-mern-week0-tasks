@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3598db;
+}
+
+#login_form_box{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40vw;
+    height: 50vh;
+    text-align: center;
+}
+
+#login_form_box div h1{
+    margin: 1.25rem;
+}
+
+#email,#pass{
+    border: 4px solid black;
+    padding:5px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 17px ;
+    border-radius: 2px;
+}
+
+#login{
+    background-color: #21d350;
+    padding: 9px 40px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#login:hover{
+    background-color: #21c14b;
+    transform: translateY(-2%);
+}
+
+
+#link_kjsce a{
+    color: black;
+    font-weight:800;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#link_kjsce a:hover{
+    color: #ff2e2e;
+    text-decoration: underline;
+}
+

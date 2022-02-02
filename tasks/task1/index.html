@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    
-    <script type="text/javascript">
-        
-    </script>
-</body>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="login_form_box">
+      <div>
+        <h1>Login</h1>
+      </div>
+
+      <div id="login_form">
+        <form action="#" method="post">
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+              autocomplete="on"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <div>
+            <input type="submit" value="Login" id="login" onclick="success()" />
+          </div>
+        </form>
+      </div>
+      <div id="link_kjsce">
+        <a href="https://www.kjscecodecell.com/" target="_blank"
+          >Go to CodeCell Page!</a
+        >
+      </div>
+    </div>
+  </body>
 </html>
